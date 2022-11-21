@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
-import { addContact } from 'redux/contactsSlice';
+import { addContact } from 'redux/slices/contactsSlice';
 import { getContacts } from 'redux/selectors';
 
 import { Form, Label, Input, SubmitButton } from './ContactForm.styled';

@@ -2,7 +2,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { FaRegUserCircle } from 'react-icons/fa';
 
 import { getContacts, getFilter } from 'redux/selectors';
-import { deleteContact } from 'redux/contactsSlice';
+import { deleteContact } from 'redux/slices/contactsSlice';
 
 import {
   ContactName,
